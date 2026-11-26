@@ -1,0 +1,30 @@
+{
+  "actor_id": "lucia_v1",
+  "name": "Lucia",
+  "origin": "Latina (Colombian-Mexican mix)",
+  "age_range": "22-24",
+  "face": "soft heart shape, full high cheekbones, slightly upturned nose with a rounded tip, full lips with a defined cupid's bow, small dimple in right cheek when smiling",
+  "eyes": "light jade green with a thin amber ring around the pupil, almond shaped, thick dark lashes, naturally full dark brows, left eye 2% smaller and very slightly lower",
+  "skin_tone_hex": "#D2A17C",
+  "skin_notes": "warm golden-olive undertone, sun-kissed tan, faint natural shine on forehead and nose, a few tiny pores visible on cheeks",
+  "hair": "dark espresso brown with subtle warm caramel highlights at the ends, thick loose natural waves, mid-back length, slight side part on the left",
+  "jawline": "softly defined, slightly tapered chin, gently asymmetric, right side a touch more angular",
+  "distinguishing_marks": "small beauty mark on right cheekbone below the outer corner of the eye, tiny pale scar on the left side of the chin, cluster of three small freckles on left shoulder",
+  "outfit_variations": [
+    "black cropped sports bra with oversized grey zip hoodie open, black baggy cargo pants, white chunky sneakers",
+    "white fitted crop top, olive green parachute pants, black cap worn backwards, white high-top sneakers",
+    "matching lilac seamless leggings and sports bra set, oversized vintage denim jacket",
+    "oversized black graphic tee tied at the waist, grey biker shorts, white crew socks, black and white retro sneakers",
+    "beige tracksuit with cropped zip jacket and wide-leg pants, small gold hoop earrings",
+    "red cropped jersey top, black baggy jeans, silver chain necklace, chunky black sneakers"
+  ],
+  "prompt_seed": 73519,
+  "voice_notes": "bright, playful, energetic, slightly husky, light Latin American Spanish accent when speaking English, laughs easily",
+  "negative_defaults": [
+    "no heavy contour makeup",
+    "no visible tattoos",
+    "no over-whitened teeth",
+    "no blue or brown eyes",
+    "no straightened sleek hair"
+  ]
+}
