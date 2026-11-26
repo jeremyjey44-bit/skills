@@ -9,6 +9,8 @@ from gradio_client import Client, handle_file
 a=argparse.ArgumentParser(); a.add_argument("job",choices=["dance","lipsync"]); a.add_argument("a"); a.add_argument("b"); a.add_argument("out")
 a.add_argument("--seconds",type=float,default=5); a.add_argument("--mode",default="Pose Retarget",choices=["Pose Retarget","Character Swap"]); a.add_argument("--hd",action="store_true")
 x=a.parse_args(); tok=os.environ.get("HF_TOKEN") or None
+# gradio_client sends the token as the x-hf-authorization header (what Spaces read for ZeroGPU quota).
+# With a proxy-injected credential on that header, HF_TOKEN can be any placeholder.
 def path(r): return r["video"] if isinstance(r,dict) and "video" in r else (r["path"] if isinstance(r,dict) else r)
 if x.job=="dance":
     c=Client("alexnasa/Wan2.2-Animate-ZEROGPU",token=tok,verbose=False)
