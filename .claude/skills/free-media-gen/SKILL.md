@@ -44,3 +44,12 @@ export HF_TOKEN=...   # never commit it
 
 Always view each output before keeping it; reject any image that drops the
 outfit, the green eyes or the identity marks, and regenerate.
+
+## Same person in every image (recommended pipeline)
+
+1. `scripts/batch_sdxl.py prompts.json outdir [seed]`: generate the scenes freely (pose, outfit, place).
+2. `scripts/faceswap.py reference.png outdir_final outdir/*.png`: swap the actor's reference face
+   onto each scene (InsightFace inswapper_128; `pip install insightface onnxruntime opencv-python-headless`).
+   Keeps pose and scene, locks the face. Check mirror reflections: only the largest face is swapped.
+`scripts/identity_sdxl.py` (IP-Adapter Plus Face) also works but forces frontal selfie compositions.
+Lucia's reference: `ugc-creator/assets/actors/lucia_v1/facepack/00_frontal.png`.
