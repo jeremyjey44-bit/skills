@@ -6,6 +6,7 @@ from diffusers import StableDiffusionXLPipeline, DPMSolverMultistepScheduler
 NEG=("cartoon, 3d render, cgi, plastic skin, airbrushed, doll, deformed face, extra fingers, bad hands, "
      "blurry, lowres, watermark, text, nude, nsfw, heavy makeup, old, wrinkles")
 prompts=json.load(open(sys.argv[1])); out=sys.argv[2]; seed=int(sys.argv[3]) if len(sys.argv)>3 else 7
+if len(sys.argv)>4: NEG=sys.argv[4]
 pipe=StableDiffusionXLPipeline.from_single_file(
   "https://huggingface.co/SG161222/RealVisXL_V5.0_Lightning/blob/main/RealVisXL_V5.0_Lightning_fp16.safetensors",
   torch_dtype=torch.bfloat16)
