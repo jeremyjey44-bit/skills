@@ -10,6 +10,12 @@ Zero-cost replacement for MuAPI generation. Prompts still come from `ugc-creator
 
 ## Backends (free)
 
+**Best: local CPU, unlimited** — `scripts/local_sdxl.py` runs RealVisXL V5 Lightning (SDXL)
+in this container: ~7 GB model download once, then ~60 s per 832x1216 image on 4 CPU cores,
+no quota, no account. Needs `pip install torch --index-url https://download.pytorch.org/whl/cpu`
+then `pip install diffusers transformers accelerate safetensors`. Keep prompts under ~75 tokens.
+
+
 | Backend | What | Limit |
 |---|---|---|
 | HF Space `black-forest-labs/FLUX.1-dev` | best free photoreal stills | anonymous: ~1 run, then quota. Free HF account token: more daily ZeroGPU quota |
