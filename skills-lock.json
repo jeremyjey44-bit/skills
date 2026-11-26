@@ -169,6 +169,13 @@
       "skillPath": "skills/library/social/youtube-shorts/SKILL.md",
       "computedHash": "2aa34ac58dd46bcca668671e390c5be0ac687b34addef50cf5fe48c34bf5e19b"
     },
+    "pollinations-api": {
+      "source": "pollinations/pollinations",
+      "commit": "c4c7721ca6067a8a227bc72a26fd4ee7c45d5da4",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/pollinations-api/SKILL.md",
+      "computedHash": "f161d602ff60bfd9a01cdffe551c3384841a01efa6f5d6e335f39c08c03c4452"
+    },
     "ugc-creator": {
       "source": "0xAnni/ugc-creator",
       "commit": "a76d9f34a057d996b2475b9ed5f3bf8dc5b734ae",
