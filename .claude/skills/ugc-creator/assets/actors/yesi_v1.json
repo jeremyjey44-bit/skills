@@ -1,0 +1,24 @@
+{
+  "actor_id": "yesi_v1",
+  "name": "Yesi",
+  "origin": "Latina",
+  "age_range": "22-23",
+  "face": "soft round face, small rounded nose, very full overlined lips, defined cheekbones",
+  "eyes": "dark brown almond eyes, sharp black winged eyeliner, long lashes, thick straight dark brows, left eye very slightly narrower",
+  "skin_tone_hex": "#C99273",
+  "skin_notes": "light caramel, warm undertone, glowing dewy finish, visible pores",
+  "hair": "shoulder-length tight defined dark brown curls, voluminous, middle part",
+  "jawline": "soft, rounded chin, gently asymmetric, right side a touch fuller",
+  "distinguishing_marks": "glossy nude overlined lips, sharp winged liner (signature look), small gold hoops",
+  "outfit_variations": [
+    "white fitted tank top, grey pleated skirt over bike shorts, white sneakers, small black shoulder bag",
+    "cream zip hoodie, gold chain, black leggings",
+    "beige sports bra and leggings set, oversized cream blazer",
+    "grey tracksuit, white cap",
+    "white crop top, olive parachute pants, white sneakers",
+    "black ribbed tank, baggy jeans, gold hoops"
+  ],
+  "prompt_seed": 5,
+  "voice_notes": "confident, playful, slightly husky, light Latina accent",
+  "negative_defaults": ["no heavy contour", "no visible tattoos", "no straight hair", "no light eyes"]
+}
