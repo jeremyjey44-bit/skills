@@ -1,0 +1,180 @@
+{
+  "version": 2,
+  "skills": {
+    "muapi-ai-clipping": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/edit/ai-clipping/SKILL.md",
+      "computedHash": "0e5c17e194547cecca78714e7e0a6f0f11768689a40fef79398c1aacc033e795"
+    },
+    "muapi-character-story-video": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/motion/character-story-video/SKILL.md",
+      "computedHash": "626868e918c7db97cbfa41d234003d1789eebd473226f64825daf9616c0cf13f"
+    },
+    "muapi-cinema-director": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/motion/cinema-director/SKILL.md",
+      "computedHash": "6a13de1c7f542370ff0e128914008a27d0484f55164183604129264696033907"
+    },
+    "muapi-fashion-try-on": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/visual/fashion-try-on/SKILL.md",
+      "computedHash": "10ec1d03d44b8ec7e8699cb30026276a10f9926de982a415f6c71b8bd0d392f1"
+    },
+    "muapi-instagram-post": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/social/instagram-post/SKILL.md",
+      "computedHash": "82344f1dcb86395d5171087e40ce1427f7d36a9b3a6245a3c28158812d524e44"
+    },
+    "muapi-media-editing": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/core/edit/SKILL.md",
+      "computedHash": "b2be08e8779e28519eb70457980a31104eae833a70faadf1fd77406697da9d20"
+    },
+    "muapi-media-generation": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/core/media/SKILL.md",
+      "computedHash": "e737f04c5583f33de2e53b578fe45ab25f93fec7265bb9f2b2b179f6a99507b8"
+    },
+    "muapi-models": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/muapi-models/SKILL.md",
+      "computedHash": "2495a23c1037db162a813a8080992c790e1763f1d46c1e1168e258336edfebdf"
+    },
+    "muapi-multi-angle-reshoot": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/visual/multi-angle-reshoot/SKILL.md",
+      "computedHash": "2f2be98ea949fbb7ee63ca9c79e8cbfd7e2e3f3dd4d7dd33199ac8d48bfd2e8d"
+    },
+    "muapi-multi-angle-shots": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/visual/multi-angle-shots/SKILL.md",
+      "computedHash": "ec44faee83184fe1e4ec32986b2506c0c6c77266815867b634b0ae751290d9b1"
+    },
+    "muapi-music-video": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/motion/music-video/SKILL.md",
+      "computedHash": "82af6717acaad50be507823ed6f0e88ebd6b40c3ed484a618afc837aa156d471"
+    },
+    "muapi-nano-banana": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/visual/nano-banana/SKILL.md",
+      "computedHash": "381a0159c2ab266e1a521826d5eaff61e6159b35cdfafeac00d3755f4eaf3485"
+    },
+    "muapi-one-shot-video": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/motion/one-shot-video/SKILL.md",
+      "computedHash": "186f3884c293c12685716221eb9ae21b0086688e7f96f3d17528ce110f4dc4fa"
+    },
+    "muapi-photo-pack-generator": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/visual/photo-pack-generator/SKILL.md",
+      "computedHash": "27cee65ec820f24cec729480919387c5fdb2595409c941043cfd8de1b9d8c479"
+    },
+    "muapi-platform": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/core/platform/SKILL.md",
+      "computedHash": "4d0bac3f0bb866d984b6835bcf60e0ed2449c7e5d770a2a602f60aea175af498"
+    },
+    "muapi-seedance-2": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/motion/seedance-2/SKILL.md",
+      "computedHash": "5609a683500eca9ea697cae9bd57c779ce62547f0f30eedace73f14668891f1e"
+    },
+    "muapi-social-media-video": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/social/social-media-video/SKILL.md",
+      "computedHash": "ea3ed1bf4de7d7d19d3c4f0e04d94011f51c5d023a530dbcb40c1f21fc17651c"
+    },
+    "muapi-social-pack": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/social/social-pack/SKILL.md",
+      "computedHash": "34ea9a17aa40ab67d7d56c13e81199f4a07e3c52022a10b7a8443077096331c1"
+    },
+    "muapi-storyboard": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/visual/storyboard/SKILL.md",
+      "computedHash": "a9a83990f73d112f043b0ab579f88ee505d934d332dbc0569cf6cb03be71c565"
+    },
+    "muapi-ugc-ads-workflow": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/social/ugc-ads-workflow/SKILL.md",
+      "computedHash": "a4b27bb3febb4164159fd57d50186519947f225d498e55c97ee7d319a79b8570"
+    },
+    "muapi-ugc-lifestyle-try-on": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/motion/ugc-lifestyle-try-on/SKILL.md",
+      "computedHash": "7b321d54ccc1736c02c3037ec8db8475488ec0f77764e78bb40543afaed167b6"
+    },
+    "muapi-ugc-video-factory": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/motion/ugc-video-factory/SKILL.md",
+      "computedHash": "fadb8a0abfdb12a31f778cdc0f40d230164a229a1a3e2348aa2c8ed863f918c3"
+    },
+    "muapi-workflow": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/workflow/SKILL.md",
+      "computedHash": "dddae0725df6cfbf9d92acfc1f43e62fa42e8b01f0cea21acf7ddae3459c9c88"
+    },
+    "muapi-youtube-shorts": {
+      "source": "SamurAIGPT/muapi-skills",
+      "commit": "1dd7527a9d5e0477e18af8baf8c6915053585680",
+      "sourceType": "github",
+      "skillPath": "skills/library/social/youtube-shorts/SKILL.md",
+      "computedHash": "2aa34ac58dd46bcca668671e390c5be0ac687b34addef50cf5fe48c34bf5e19b"
+    },
+    "ugc-creator": {
+      "source": "0xAnni/ugc-creator",
+      "commit": "a76d9f34a057d996b2475b9ed5f3bf8dc5b734ae",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "f0d5d82e89a813d80fc4a9e9e141222b2682fab66ea699709a466c187b9d4978"
+    }
+  }
+}
