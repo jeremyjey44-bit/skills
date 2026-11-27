@@ -134,6 +134,10 @@ def build(a):
     if a.climax is not None:
         climax = a.climax
         punches = sorted(set([climax] + [p for p in punches if abs(p - climax) >= 1.5]))[:3]
+    if a.punches:
+        punches = sorted(float(x) for x in a.punches.split(","))
+        if climax is not None and all(abs(climax - p) > 0.05 for p in punches):
+            punches = sorted(punches + [climax])
     report = {"duration": round(dur, 2), "crop": crop, "cuts": [round(c[0], 2) for c in cuts],
               "climax": climax, "punches": punches}
     print(json.dumps(report), file=sys.stderr)
@@ -228,6 +232,7 @@ def main():
     p.add_argument("--start", type=float, help="trim: start second in the source")
     p.add_argument("--end", type=float, help="trim: end second in the source")
     p.add_argument("--climax", type=float, help="override detected climax time (seconds, after trim)")
+    p.add_argument("--punches", help="comma-separated punch-in zoom times (seconds), overrides detection")
     p.add_argument("--music", help="music file to mix under the voice (ducked)")
     p.add_argument("--music-start", type=float, default=0.0, help="offset into the music file")
     p.add_argument("--music-volume", type=float, default=0.35)
